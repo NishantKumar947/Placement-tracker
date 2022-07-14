@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+
+pre{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: flex;
+    position: absolute;
+}
