@@ -24,101 +24,111 @@
         <div class="row justify-content-center ">
 
             <div class="col-xl-7 col-lg-8 col-md-8 col-sm-8 col-10" id="ui">
-            
-                    <form action="" class="form">
-                        <h2 class="text-center">SIGN UP FORM</h2>
-                        <br>
-                        <div class="row">
 
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-person-fill icon"></i>
-                                <label for="">First Name</label>
-                                <input type="text" name="fname" class="form-control"
-                                    placeholder="Enter your first name">
-                            </div>
+                <form action="" class="form">
+                    <h2 class="text-center">SIGN UP FORM</h2>
+                    <br>
+                    <div class="row">
 
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-person-fill icon"></i>
-                                <label for="">Last Name</label>
-                                <input type="text" name="lname" class="form-control" placeholder="Enter your last name">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-envelope-fill icon"></i>
-                                <label for="">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Enter your email">
-                            </div>
-
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-phone"></i>
-                                <label for="">Phone no</label>
-                                <input type="number" name="num" class="form-control" placeholder="Enter your number">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-lock-fill icon"></i>
-                                <label for="">Password</label>
-                                <input type="password" name="password" class="form-control"
-                                    placeholder="Enter your password">
-                            </div>
-
-                            <div class="col-xl-6 col-lg-6">
-                                <i class="bi bi-lock-fill icon"></i>
-                                <label for="">Confirm Password</label>
-                                <input type="password" name="password" class="form-control"
-                                    placeholder="re-type your password">
-                            </div>
-                        </div>
-                        <br>
-
-                        <div class="row">
-                            <div class="">
-                                <h3>Gender</h3>
-                                <input type="radio" class="radio-btn" name="gender" id="male">
-                                <label for="male" style="margin-right:30px">Male</label>
-
-                                <input type="radio" class="radio-btn" name="gender" id="female">
-                                <label for="female">Female</label>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <select class="Country">
-                                <option>Select a Country</option>
-                                <option>India</option>
-                                <option>Australia</option>
-                                <option>Sri lanka</option>
-                                <option>China</option>
-                                <option>USA</option>
-                                <option>Russia</option>
-                                <option>Nepal</option>
-                                <option>Italy</option>
-                            </select>
-                        </div>
-                        <br>
-
-                        <div class="row">
-                            <div class="">
-                                <input type="checkbox" class="checkbox-btn">
-                                <label for="checkbox-btn" class="checkbox-content">I accept the terms &
-                                    conditions</label>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="">
-                                <a href="login.html" class="btn btn-block btn-lg" name="submit">SIGN UP</a>
-                            </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-person-fill icon"></i>
+                            <label for="">First Name</label>
+                            <input type="text" name="fname" class="form-control" placeholder="Enter your first name">
                         </div>
 
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-person-fill icon"></i>
+                            <label for="">Last Name</label>
+                            <input type="text" name="lname" class="form-control" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-envelope-fill icon"></i>
+                            <label for="">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                        </div>
 
-                    </form>
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-phone"></i>
+                            <label for="">Phone no</label>
+                            <input type="number" name="num" class="form-control" placeholder="Enter your number">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-lock-fill icon"></i>
+                            <label for="">Password</label>
+                            <input type="password" name="password" class="form-control"
+                                placeholder="Enter your password">
+                        </div>
 
-                
+                        <div class="col-xl-6 col-lg-6">
+                            <i class="bi bi-lock-fill icon"></i>
+                            <label for="">Confirm Password</label>
+                            <input type="password" name="password" class="form-control"
+                                placeholder="re-type your password">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="mb-3 col-lg-12 mb-4">
+                        <label for="formFile" class="form-label mb-3">Add Your CV</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-xl-12 col-md-12  col-sm-12 col-12">
+                            <label for="" class="me-5">Gender:</label>
+                            <input type="radio" class="radio-btn" name="gender" id="male">
+                            <label for="male" style="margin-right:30px">Male</label>
+
+                            <input type="radio" class="radio-btn" name="gender" id="female">
+                            <label for="female">Female</label>
+
+                            <input type="radio" class="radio-btn ms-3" name="gender" id="other" >
+                            <label for="other">Other</label>
+                        </div>
+
+                        <!-- .....................cv button........................... -->
+                          
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <select class="state">
+                            <option>Select a State</option>
+                            <option>BIHAR</option>
+                            <option>JHARKHAND</option>
+                            <option>DELHI</option>
+                            <option>BANGALORE</option>
+                            <option>WEST BENGAL </option>
+                            <option>PUNJAB</option>
+                            <option>HARYANA</option>
+                            <option>KERALA</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="">
+                            <input type="checkbox" class="checkbox-btn">
+                            <label for="checkbox-btn" class="checkbox-content">I accept the terms &
+                                conditions</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="">
+                            <a href="login.html" class="btn btn-block btn-lg" name="submit">SIGN UP</a>
+                        </div>
+                    </div>
+
+
+                </form>
+
+
 
             </div>
         </div>
